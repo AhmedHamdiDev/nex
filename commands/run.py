@@ -8,7 +8,7 @@ from utils.timer import measure_time
 def find_main_file(folder):
     """Search for a main file in a folder."""
 
-    possible_files = ["main.py", "main.java", "main.c"]
+    possible_files = ["main.py", "Main.java", "main.c"]
 
     for file in possible_files:
         path = os.path.join(folder, file)

@@ -22,4 +22,4 @@ def run_c(file_name):
         print("Skipping compilation (up-to-date)")
 
     print("Running C program...")
-    subprocess.run([exe_file])
+    subprocess.run(["./"+exe_file])
